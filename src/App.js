@@ -1,23 +1,17 @@
-import logo from './logo.svg';
 import './App.css';
+import HomepageComponent from './HomepageComponent';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='App'>
+      <h1>Welcome to Codebum</h1>
+      <h2>Why did I start this site?</h2>
+      <p>
+        I started this because I needed a place to put my thoughts. My journey
+        to become a developer, my personal and sports blogs. And so anyone
+        interested could find it all in one place. Enjoy!
+      </p>
+      <HomepageComponent />
     </div>
   );
 }
